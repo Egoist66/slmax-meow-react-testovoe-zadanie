@@ -1,0 +1,23 @@
+.container {
+    max-width: 1390px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+}
+
+a {
+    transition: 0.3s all ease;
+    display: block;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+a.active {
+    font-weight: 700;
+    transition: 0.3s all ease;
+}
